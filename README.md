@@ -3,7 +3,7 @@
 Runs the **real HMI of a MIB2 STD unit** (Technisat MST2, SW 0480, Škoda STD2 Nav, HMI H29.319.120) on a Windows PC. It loads the Java code, skins, fonts and views , plus the long coding. Nothing from the car's QNX side runs — the backend (startup, power, persistence, car data, radio, phone, media…) is re-implemented in Java and answers the unmodified HMI exactly like the ECUs would.
 
 
-![alt text](screenshot_1793052586943.png)
+![MainScreen](Screenshots/screenshot_1793052569574.png)
 
 
 

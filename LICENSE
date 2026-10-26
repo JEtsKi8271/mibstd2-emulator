@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0588fcd70a24b5949c6b5196c650cee2f1718d2407689e60c59ca393fcb9b3e3
-size 1552
+mib2emu License
+Copyright (c) 2026 JEtsKi(JEtsKi8271) and Razvan2(Razvandxv) (The Cluster Hub). All rights reserved.
+
+You are granted a free, non-exclusive, non-transferable license to:
+
+  - USE the software for your own personal, non-commercial purposes;
+  - SHARE and PROMOTE it, in its original unmodified form, as long as this
+    license, the copyright notice and the authors' credit stay intact and
+    attached.
+
+You MAY NOT:
+
+  - MODIFY the software, or create derivative works from it, or distribute a
+    modified copy;
+  - SELL, rent, sublicense or otherwise charge for the software, or include it
+    in any paid product, service or bundle;
+  - remove or alter the authors' credit, this license or the copyright notice.
+
+This license covers ONLY the authors' own work: the Java source under src/
+(the PC platform layer and backend simulation), the Python tooling, and the
+build scripts and docs.
+
+It does NOT cover, and grants NO rights to:
+  - the MIB2 HMI firmware (MIBHMI.pc.*, hmi_v2.pc.*, GEM/osgi, skins, fonts,
+    views, boot animations) - Technisat / Volkswagen / VW AG / Skoda, all rights
+    reserved to them;
+  - any eMMC or vehicle coding data;
+  - ANGLE (lib/*.dll, BSD, from Electron), Google adb and Desktop Head Unit,
+    which keep their own licenses.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.

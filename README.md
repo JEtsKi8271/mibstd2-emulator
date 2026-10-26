@@ -74,15 +74,15 @@ Opens in your browser automatically on start (`-Dmib2pc.web.open=false` to stop)
 
 - **No map, browser, CarPlay or video playback** — those run as QNX processes on the real unit. (Android Auto works, via the DHU.)
 - **Climate menu** opens but the zone/temp/fan controls don't respond yet (`DSICarAirCondition` is stubbed).
-- **TPMS** reset screen can hang on "Porneşte…" (an HMI request we don't answer yet).
+- **TPMS** reset screen hangs on "Starting…" 
 - **Phone**: no SMS; contact search by name isn't matched; USB media browses folders only (no artist/album DB).
-- **Startup** waits on a couple of 30–50 s service timeouts (media language, nav) — answering those would speed boot up.
 - `*` NAV screen opens but there's no map engine.
 
 
 ## Credits & license
 
 Built by **JEtsKi(JEtsKi8271) and Razvan2(Razvandxv) — The Cluster Hub**. Free to **use, share and promote** — **no modifying, no selling** (`LICENSE`). Covers our source and tooling only.
+
 ![Screenshot](Screenshots/screenshot_1793052580346.png)
 ![Screenshot](Screenshots/screenshot_1793052586943.png)
 ![Screenshot](Screenshots/screenshot_1793052591119.png)

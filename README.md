@@ -3,7 +3,7 @@
 Runs the **real HMI of a MIB2 STD unit** (Technisat MST2, SW 0480, Škoda STD2 Nav, HMI H29.319.120) on a Windows PC. It loads the Java code, skins, fonts and views , plus the long coding. Nothing from the car's QNX side runs — the backend (startup, power, persistence, car data, radio, phone, media…) is re-implemented in Java and answers the unmodified HMI exactly like the ECUs would.
 
 
-![MainScreen](Screenshots/screenshot_1793052569574.png)
+![Screenshot](Screenshots/screenshot_1793052569574.png)
 
 
 
@@ -85,4 +85,18 @@ Opens in your browser automatically on start (`-Dmib2pc.web.open=false` to stop)
 
 ## Credits & license
 
-Built by **JEtsKi(JEtsKi8271) and Razvan2(Razvandxv) — The Cluster Hub**. Free to **use, share and promote** — **no modifying, no selling** (`LICENSE`). Covers our source and tooling only.![alt text](screenshot_1793052610919.png) ![alt text](screenshot_1793052575426.png) ![alt text](screenshot_1793052580346.png) ![alt text](screenshot_1793052586943-1.png) ![alt text](screenshot_1793052591119.png) ![alt text](screenshot_1793052593851.png) ![alt text](screenshot_1793052601033.png) ![alt text](screenshot_1793052603111.png)
+Built by **JEtsKi(JEtsKi8271) and Razvan2(Razvandxv) — The Cluster Hub**. Free to **use, share and promote** — **no modifying, no selling** (`LICENSE`). Covers our source and tooling only.
+![Screenshot](Screenshots/screenshot_1793052580346.png)
+![Screenshot](Screenshots/screenshot_1793052586943.png)
+![Screenshot](Screenshots/screenshot_1793052586943-1.png)
+![Screenshot](Screenshots/screenshot_1793052591119.png)
+![Screenshot](Screenshots/screenshot_1793052593851.png)
+![Screenshot](Screenshots/screenshot_1793052601033.png)
+![Screenshot](Screenshots/screenshot_1793052603111.png)
+![Screenshot](Screenshots/screenshot_1793052610919.png)
+![Screenshot](Screenshots/screenshot_1793052618474.png)
+![Screenshot](Screenshots/screenshot_1793052632487.png)
+![Screenshot](Screenshots/screenshot_1793052640434.png)
+![Screenshot](Screenshots/screenshot_1793052642677.png)
+![Screenshot](Screenshots/screenshot_1793052649752.png)
+![Screenshot](Screenshots/screenshot_1793052655136.png)

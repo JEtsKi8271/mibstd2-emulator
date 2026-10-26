@@ -40,9 +40,8 @@ The window opens with the unit's **boot animation** ("Welcome to ŠKODA"), and t
 
 ### Phone & Bluetooth
 Two links, because Windows can't act as a hands-free car kit:
-- **Bluetooth** (`tools/btbridge.py`, needs Python `winrt-*` + a BT adapter): search, pair with the 6-digit code on the MIB, paired-device list, auto-reconnect, A2DP music on the PC.
 - **ADB** (Android over USB / wireless debugging): phone name, battery, signal, call history, all contacts, and calls. Dial from keypad / contact / call list, answer, hang up — all act on the real phone (call audio stays on the phone).
-- Options: `-Dmib2pc.bt=off|demo`, `-Dmib2pc.bt.name=…`, `-Dmib2pc.adb=none`. `demo` gives a fake phone with sample contacts and no hardware.
+
 
 ### Media
 - **USB**: your Music folder is a USB stick — browse folders, play/pause, next/prev, seek, repeat/shuffle, tag info (ffprobe), progress. Played via ffmpeg.

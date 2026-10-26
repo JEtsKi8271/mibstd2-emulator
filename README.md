@@ -88,7 +88,6 @@ Opens in your browser automatically on start (`-Dmib2pc.web.open=false` to stop)
 Built by **JEtsKi(JEtsKi8271) and Razvan2(Razvandxv) — The Cluster Hub**. Free to **use, share and promote** — **no modifying, no selling** (`LICENSE`). Covers our source and tooling only.
 ![Screenshot](Screenshots/screenshot_1793052580346.png)
 ![Screenshot](Screenshots/screenshot_1793052586943.png)
-![Screenshot](Screenshots/screenshot_1793052586943-1.png)
 ![Screenshot](Screenshots/screenshot_1793052591119.png)
 ![Screenshot](Screenshots/screenshot_1793052593851.png)
 ![Screenshot](Screenshots/screenshot_1793052601033.png)

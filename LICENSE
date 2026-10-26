@@ -1,35 +1,47 @@
-mib2emu License
-Copyright (c) 2026 JEtsKi(JEtsKi8271) and Razvan2(Razvandxv) (The Cluster Hub). All rights reserved.
+# mib2emu License
+
+Copyright (c) 2026 JEtsKi (JEtsKi8271) and Razvan2 (Razvandxv) — The Cluster Hub. All rights reserved.
 
 You are granted a free, non-exclusive, non-transferable license to:
 
-  - USE the software for your own personal, non-commercial purposes;
-  - SHARE and PROMOTE it, in its original unmodified form, as long as this
-    license, the copyright notice and the authors' credit stay intact and
-    attached.
+- **USE** the software for your own personal, non-commercial purposes.
+- **SHARE and PROMOTE** the software in its original, unmodified form, provided that this license, the copyright notice, and the authors' credit remain intact and attached.
 
-You MAY NOT:
+## You MAY NOT:
 
-  - MODIFY the software, or create derivative works from it, or distribute a
-    modified copy;
-  - SELL, rent, sublicense or otherwise charge for the software, or include it
-    in any paid product, service or bundle;
-  - remove or alter the authors' credit, this license or the copyright notice.
+- **MODIFY** the software, create derivative works from it, or distribute modified copies.
+- **SELL** the software, rent it, sublicense it, or otherwise charge for it, or include it in any paid product, service, or bundle.
+- **REUSE ANY PROJECT FILES IN YOUR OWN PROJECTS.** You may not copy, extract, reproduce, incorporate, adapt, or reuse any files from this repository in your own projects, repositories, software, tools, firmware, or products. This restriction includes source code, scripts, build files, documentation, assets, configurations, and other files covered by the authors' work.
+- Remove, alter, or obscure the authors' credit, this license, or the copyright notice.
+- Use the authors' work as part of another project, whether public or private, without prior written permission from the copyright holders.
 
-This license covers ONLY the authors' own work: the Java source under src/
-(the PC platform layer and backend simulation), the Python tooling, and the
-build scripts and docs.
+## Scope of This License
 
-It does NOT cover, and grants NO rights to:
-  - the MIB2 HMI firmware (MIBHMI.pc.*, hmi_v2.pc.*, GEM/osgi, skins, fonts,
-    views, boot animations) - Technisat / Volkswagen / VW AG / Skoda, all rights
-    reserved to them;
-  - any eMMC or vehicle coding data;
-  - ANGLE (lib/*.dll, BSD, from Electron), Google adb and Desktop Head Unit,
-    which keep their own licenses.
+This license covers **ONLY the original work created by the authors**, specifically:
 
+- Java source code under `src/`, including the PC platform layer and backend simulation.
+- Python tooling.
+- Build scripts and documentation authored by the copyright holders.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-USE OR OTHER DEALINGS IN THE SOFTWARE.
+The restrictions in this license apply only to the authors' own work and do not override the licenses or ownership rights of third-party components.
+
+## Excluded Materials and Third-Party Rights
+
+This license does **NOT** cover, transfer ownership of, or grant any rights to:
+
+- **MIB2 HMI firmware:** `MIBHMI.pc.*`, `hmi_v2.pc.*`, `GEM/osgi`, skins, fonts, views, boot animations, and related firmware materials owned by Technisat, Volkswagen, VW AG, Škoda, or their respective rights holders.
+- **eMMC contents or vehicle coding data.**
+- **ANGLE libraries** (`lib/*.dll`), which are distributed under their applicable BSD license.
+- **Google ADB and Desktop Head Unit**, which remain subject to their respective licenses and terms.
+
+Third-party materials must be used in accordance with their respective licenses. Nothing in this license grants permission to redistribute or reuse third-party materials beyond the rights expressly provided by their respective rights holders.
+
+## Disclaimer of Warranty and Limitation of Liability
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Permissions and Contact
+
+Any permission not expressly granted by this license is reserved by the copyright holders. Requests for exceptions, including permission to reuse files in another project, must be made to the copyright holders and require their prior written approval.

@@ -39,13 +39,12 @@ The window opens with the unit's **boot animation** ("Welcome to ŠKODA"), and t
 - FM tuner plays **Radio Garden** internet stations: each entry in `radio-garden.txt` is an FM station on the MIB — shows in the list, tunes via list / presets / ◀ ▶ seek / manual. Add stations by searching Radio Garden from the web UI. (Needs `ffmpeg` on PATH.)
 
 ### Phone & Bluetooth
-Two links, because Windows can't act as a hands-free car kit:
+One link, because Windows can't act as a hands-free car kit:
 - **ADB** (Android over USB / wireless debugging): phone name, battery, signal, call history, all contacts, and calls. Dial from keypad / contact / call list, answer, hang up — all act on the real phone (call audio stays on the phone).
 
 
 ### Media
 - **USB**: your Music folder is a USB stick — browse folders, play/pause, next/prev, seek, repeat/shuffle, tag info (ffprobe), progress. Played via ffmpeg.
-- **Bluetooth audio**: a BT phone streams A2DP to the PC; Media shows song/artist/album and play/skip go to the phone (AVRCP).
 - Radio and media take turns like in the car; the active source mutes the other.
 
 ### Android Auto

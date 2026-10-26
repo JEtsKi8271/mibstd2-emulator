@@ -81,7 +81,13 @@ Opens in your browser automatically on start (`-Dmib2pc.web.open=false` to stop)
 
 ## Credits & license
 
-Built by **JEtsKi(JEtsKi8271) and Razvan2(Razvandxv) — The Cluster Hub**. Free to **use, share and promote** — **no modifying, no selling** (`LICENSE`). Covers our source and tooling only.
+Built by **JEtsKi (JEtsKi8271) and Razvan2 (Razvandxv) — The Cluster Hub**.
+
+Free to **use, share, and promote** with proper credit. **Modification, redistribution of modified versions, and commercial use are prohibited** under the terms of the `LICENSE`.
+
+**No Reuse of Project Files:** You may not use, copy, extract, incorporate, or reuse any files from this project in your own projects, repositories, tools, or products. This includes source code, scripts, firmware files, assets, configurations, and other included materials.
+
+These restrictions apply to our source code, files, and tooling only, as specified in the `LICENSE`.
 
 ![Screenshot](Screenshots/screenshot_1793052580346.png)
 ![Screenshot](Screenshots/screenshot_1793052586943.png)

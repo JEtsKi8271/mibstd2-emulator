@@ -12,8 +12,8 @@ Runs the **real HMI of a MIB2 STD unit** (Technisat MST2, SW 0480, Škoda STD2 N
 ## Build & run
 
 1. Install **JDK 21** (Eclipse Temurin 21 from adoptium.net). It must be **21 exactly** — this build uses the Java 21 foreign-function API; 22+ won't run it.
-2. Double-click **`run.bat`**.
-3. ### Downloading the Repository
+
+2. ### Downloading the Repository
 
 Git LFS is required to download all large files correctly.
 
@@ -38,6 +38,10 @@ Git LFS is required to download all large files correctly.
 If some files are unavailable through Git LFS, use the alternative download links below.
 
 **Alternative download:** [Google Drive](n/a)
+
+3. Double-click **`run.bat`**.
+
+
 
 
 

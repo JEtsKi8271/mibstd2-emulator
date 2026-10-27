@@ -37,7 +37,7 @@ Git LFS is required to download all large files correctly.
 
 If some files are unavailable through Git LFS, use the alternative download links below.
 
-**Alternative download:** [Google Drive]-not available for now
+**Alternative download:** [Google Drive](https://drive.google.com/file/d/1CKFgehHMmWPh4fJ8_PBvfCRWE9PLQ7oO/view?usp=sharing)
 
 3. Double-click **`run.bat`**.
 

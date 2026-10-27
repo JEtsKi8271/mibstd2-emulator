@@ -9,9 +9,9 @@ Runs the **real HMI of a MIB2 STD unit** (Technisat MST2, SW 0480, Škoda STD2 N
 
 > **This is our code only.** The HMI firmware, skins, boot animations and vehicle coding are the car maker's (Technisat / VW / Škoda /VW AG) . Free to **use, share and promote** — but **not** to modify or sell (see `LICENSE`); and the license covers our source and tooling only, not any firmware or dump.
 
-## Build & run
+## Download & run
 
-1. Install **JDK 21** (Eclipse Temurin 21 from adoptium.net). It must be **21 exactly** — this build uses the Java 21 foreign-function API; 22+ won't run it.
+Install **JDK 21** (Eclipse Temurin 21 from adoptium.net). It must be **21 exactly** — this build uses the Java 21 foreign-function API; 22+ won't run it.
 
 2. ### Downloading the Repository
 

@@ -1,2 +1,4 @@
 * filter=lfs diff=lfs merge=lfs -text
 .gitattributes !filter !diff !merge text
+README.md -filter -diff -merge text
+LICENSE -filter -diff -merge text

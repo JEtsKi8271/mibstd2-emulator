@@ -13,6 +13,32 @@ Runs the **real HMI of a MIB2 STD unit** (Technisat MST2, SW 0480, Škoda STD2 N
 
 1. Install **JDK 21** (Eclipse Temurin 21 from adoptium.net). It must be **21 exactly** — this build uses the Java 21 foreign-function API; 22+ won't run it.
 2. Double-click **`run.bat`**.
+3. ### Downloading the Repository
+
+Git LFS is required to download all large files correctly.
+
+1. Install [Git](https://git-scm.com/downloads) and [Git LFS](https://git-lfs.com/).
+
+ Open a terminal and run:
+
+   ```bash
+   git lfs install
+   git clone https://github.com/JEtsKi8271/mibstd2-emulator.git
+   ```
+
+3. Enter the repository folder and ensure all LFS files are downloaded:
+
+   ```bash
+   cd mibstd2-emulator
+   git lfs pull
+   ```
+
+**Important:** Do not download the repository using GitHub's **Download ZIP** option, as large Git LFS files may not be included as expected.
+
+If some files are unavailable through Git LFS, use the alternative download links below.
+
+**Alternative download:** [Google Drive](n/a)
+
 
 
 The window opens with the unit's **boot animation** ("Welcome to ŠKODA"), and the HMI takes over once it's ready, like in the car. It's 800×480 shown at 1.5×. A few menus fill in only after ~80 s because some simulated services still answer certain startup steps by timeout.

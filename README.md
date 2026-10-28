@@ -105,11 +105,6 @@ Opens in your browser automatically on start (`-Dmib2pc.web.open=false` to stop)
 ## Known gaps
 
 - **No map, browser, CarPlay or video playback** — those run as QNX processes on the real unit. (Android Auto works, via the DHU.)
-- **Climate menu** opens but the zone/temp/fan controls don't respond yet (`DSICarAirCondition` is stubbed).
-- **TPMS** reset screen hangs on "Starting…" 
-- **Phone**: no SMS; contact search by name isn't matched; USB media browses folders only (no artist/album DB).
-- `*` NAV screen opens but there's no map engine.
-
 
 ## Credits & license
 

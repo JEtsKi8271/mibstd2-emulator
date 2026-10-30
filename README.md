@@ -84,6 +84,8 @@ Real Android Auto from your phone on the MIB screen, via Google's **Desktop Head
 1. Phone on ADB. 2. On the phone: AA settings → tap *Version* 10× → ⋮ → **Start head unit server**. 3. Start the emulator → SmartLink lists the phone as *android auto* → tap it.
 The DHU runs hidden; its picture is drawn in the MIB's AA screen, MIB touches go back to it, AA audio plays through it. The emulator codes AA on (adaptation 1142, off on this unit); `-Dmib2pc.androidauto=false` keeps the original, `-Dmib2pc.aa.fake=true` tests without a phone. **Exit** returns to the SmartLink device list.
 
+![Android Auto app grid on the MIB screen](Screenshots/android-auto-apps.png)
+
 ### Apple CarPlay
 Experimental **software-only wired CarPlay** from an iPhone on the MIB SmartLink screen, using [PlayPort](https://github.com/youcci/playport). No extra CarPlay receiver hardware is required.
 
@@ -95,6 +97,8 @@ Experimental **software-only wired CarPlay** from an iPhone on the MIB SmartLink
 Video and touch work on the MIB screen. Audio plays through the PC's default Windows output, with MIB volume and mute controls. The CarPlay app grid includes a Škoda icon.
 
 The tested Windows setup uses Apple Mobile Device Support, UsbDk, 64-bit Python 3.12, and Edge/Chrome, alongside JDK 21. First setup requests administrator approval for the phone's USB configuration and Apple service; original settings are backed up. Wireless mode, calls, Siri/microphone, and cable reconnect recovery remain experimental. See **[CarPlay setup, requirements, and troubleshooting](mib2emu/CARPLAY.md)** before starting.
+
+![CarPlay app grid with the Skoda icon](Screenshots/carplay-skoda.png)
 
 ### Web UI
 Opens in your browser automatically on start (`-Dmib2pc.web.open=false` to stop). Also at **http://localhost:8080/** (localhost only): live screen (click/drag = touch), hard keys, driving-mode buttons, trip-computer sliders, volume, next camera photo, radio station list, startup-animation picker, and a **Restart head unit** button. JSON API is documented atop `src/mib2pc/web/Web.java`, e.g. `curl -X POST "localhost:8080/api/mode?profile=3"`.

@@ -96,7 +96,7 @@ Experimental **software-only wired CarPlay** from an iPhone on the MIB SmartLink
 
 Video and touch work on the MIB screen. Audio plays through the PC's default Windows output, with MIB volume and mute controls. The CarPlay app grid includes a Škoda icon.
 
-The tested Windows setup uses Apple Mobile Device Support, UsbDk, 64-bit Python 3.12, and Edge/Chrome, alongside JDK 21. First setup requests administrator approval for the phone's USB configuration and Apple service; original settings are backed up. Wireless mode, calls, Siri/microphone, and cable reconnect recovery remain experimental. See **[CarPlay setup, requirements, and troubleshooting](mib2emu/CARPLAY.md)** before starting.
+The tested Windows setup uses Apple Mobile Device Support, UsbDk, 64-bit Python 3.12, and Edge/Chrome, alongside JDK 21. **Install [Node.js LTS](https://nodejs.org/) with npm before the first CarPlay launch**; it builds the browser viewer. First setup requests administrator approval for the phone's USB configuration and Apple service; original settings are backed up. Wireless mode, calls, Siri/microphone, and cable reconnect recovery remain experimental. See **[CarPlay setup, requirements, and troubleshooting](mib2emu/CARPLAY.md)** before starting.
 
 ![CarPlay app grid with the Skoda icon](Screenshots/carplay-skoda.png)
 

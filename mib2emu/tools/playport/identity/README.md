@@ -1,21 +1,23 @@
-# Accessory identity (not in git)
+# Owner-supplied experimental accessory identity
 
-CarPlay requires an authenticated accessory. PlayPort needs two files that are deliberately
-**not** included in this repository:
+CarPlay requires an authenticated accessory. The repository owner supplied and
+explicitly requested publication of these two files, together with `DiPlay.apk`:
 
 ```
 identity/offline-mfi/identity.pk8       # PKCS#8 EC P-256 private key
 identity/offline-mfi/certificate.p7b    # accessory certificate (Apple Accessories CA)
 ```
 
-`identity/` is ignored by Git. To keep the files elsewhere, start the server with
+Only these supplied artifacts and this README are allowlisted; other files under
+`identity/` remain ignored. To keep a different local identity elsewhere, start the server with
 `--identity-dir /path/to/identity`, or use a remote MFi service with `--mfi-server`.
 
-Where to get a pair, and the caveats that come with it, are documented in the main
-[README](../README.md#accessory-identity-required). In short: the same experimental pair DiPlay
-bundles can be extracted from a public DiPlay release APK, or recovered from public Carlinkit
-firmware. It is shared, not issued to PlayPort, and Apple can revoke it at any time — do not
-redistribute it.
+Background and limitations are documented in the upstream
+[README](../README.md#accessory-identity-required). The supplied material is
+experimental and is not an identity issued to this PlayPort integration. Apple
+can revoke it. This publication is an explicit choice by this repository's owner;
+the upstream project normally excludes accessory credentials from its source tree.
+Personal iPhone pairing records and generated session tokens are not included.
 
 Verify a pair signs correctly with:
 

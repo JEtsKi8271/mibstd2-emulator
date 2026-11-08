@@ -89,7 +89,7 @@ The DHU runs hidden; its picture is drawn in the MIB's AA screen, MIB touches go
 ![Android Auto app grid on the MIB screen](Screenshots/android-auto-apps.png)
 
 ### Apple CarPlay
-Experimental **software-only wired CarPlay** from an iPhone on the MIB SmartLink screen, using [PlayPort](https://github.com/youcci/playport). No extra CarPlay receiver hardware is required. The pinned, patched PlayPort source is bundled under `mib2emu/tools/playport`, with its GPL-3.0 license; local identity/pairing files and generated build outputs are excluded.
+Experimental **software-only wired CarPlay** from an iPhone on the MIB SmartLink screen, using [PlayPort](https://github.com/youcci/playport). No extra CarPlay receiver hardware is required. The pinned, patched PlayPort source is bundled under `mib2emu/tools/playport`, with its GPL-3.0 license and the repository owner's supplied experimental accessory identity. Phone pairing records, session tokens and generated build outputs remain local.
 
 1. Connect the iPhone with a USB data cable, unlock it, and trust the PC.
 2. From `mib2emu`, run **`carplay-usb.bat`** and keep the receiver window open.

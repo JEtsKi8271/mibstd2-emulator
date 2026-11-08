@@ -9,6 +9,18 @@ Runs the **real HMI of a MIB2 STD unit** (Technisat MST2, SW 0480, Škoda STD2 N
 
 > **This is our code only.** The HMI firmware, skins, boot animations and vehicle coding are the car maker's (Technisat / VW / Škoda /VW AG) . Free to **use, share and promote** — but **not** to modify or sell (see `LICENSE`); and the license covers our source and tooling only, not any firmware or dump.
 
+## What's new — 9 November 2026
+
+- Bundled patched **PlayPort** source, Windows CarPlay integration, wired launcher and the owner-supplied experimental accessory identity.
+- Added **YouTube Music** with a dedicated Edge player, local API, track details, artwork and playback controls.
+- Improved contact names and persistent favourites; fixed pause/seek behaviour and connected sound sliders to local audio.
+- Fixed Bluetooth connection handling and Windows-session mute/volume/local pause, plus the stale Spotify icon when using YouTube Music.
+- Retained the latest upstream DCC/offroad, seat-ventilation and window-scaling improvements.
+
+**Bluetooth phone metadata/skipping still requires an accessible remote-control service.** CarPlay remains experimental. Run `git lfs pull` after updating.
+
+Read the **[full update notes and setup requirements](CHANGELOG.md)**.
+
 ## Download & run
 
 Install **JDK 21** (Eclipse Temurin 21 from adoptium.net). It must be **21 exactly** — this build uses the Java 21 foreign-function API; 22+ won't run it.

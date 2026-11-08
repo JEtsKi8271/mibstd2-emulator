@@ -71,13 +71,15 @@ The window opens with the unit's **boot animation** ("Welcome to ŠKODA"), and t
 - FM tuner plays **Radio Garden** internet stations: each entry in `radio-garden.txt` is an FM station on the MIB — shows in the list, tunes via list / presets / ◀ ▶ seek / manual. Add stations by searching Radio Garden from the web UI. (Needs `ffmpeg` on PATH.)
 
 ### Phone & Bluetooth
-One link, because Windows can't act as a hands-free car kit:
+Bluetooth audio streams from the paired phone through Windows; ADB supplies Android phone data because Windows cannot act as a full hands-free car kit:
 - **ADB** (Android over USB / wireless debugging): phone name, battery, signal, call history, all contacts, and calls. Dial from keypad / contact / call list, answer, hang up — all act on the real phone (call audio stays on the phone).
 
+- **Bluetooth audio**: local mute, volume and pause control the received audio. Phone metadata and next/previous depend on an accessible phone media service; iPhone AMS support is conditional. Contact names and per-phone favourites are preserved.
 
 ### Media
 - **USB**: your Music folder is a USB stick — browse folders, play/pause, next/prev, seek, repeat/shuffle, tag info (ffprobe), progress. Played via ffmpeg.
-- Radio and media take turns like in the car; the active source mutes the other.
+- **YouTube Music**: run `mib2emu/youtube-music.bat`, choose a song in its dedicated Edge player, then select YouTube Music in Media. Real track details, artwork, playback controls, seek, volume and mute use its local API. See [media setup](mib2emu/docs/MEDIA_INTEGRATIONS.md).
+- Radio and media take turns like in the car; the active source mutes the other. Sound sliders affect local radio/USB audio, and seeking a paused track keeps it paused.
 
 ### Android Auto
 Real Android Auto from your phone on the MIB screen, via Google's **Desktop Head Unit**:
@@ -87,7 +89,7 @@ The DHU runs hidden; its picture is drawn in the MIB's AA screen, MIB touches go
 ![Android Auto app grid on the MIB screen](Screenshots/android-auto-apps.png)
 
 ### Apple CarPlay
-Experimental **software-only wired CarPlay** from an iPhone on the MIB SmartLink screen, using [PlayPort](https://github.com/youcci/playport). No extra CarPlay receiver hardware is required.
+Experimental **software-only wired CarPlay** from an iPhone on the MIB SmartLink screen, using [PlayPort](https://github.com/youcci/playport). No extra CarPlay receiver hardware is required. The pinned, patched PlayPort source is bundled under `mib2emu/tools/playport`, with its GPL-3.0 license; local identity/pairing files and generated build outputs are excluded.
 
 1. Connect the iPhone with a USB data cable, unlock it, and trust the PC.
 2. From `mib2emu`, run **`carplay-usb.bat`** and keep the receiver window open.
